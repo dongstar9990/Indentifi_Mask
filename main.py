@@ -12,8 +12,8 @@ def cong(x , y):
     c=x+y
     print(c)
 
-def tru (x, y):
-    c = x - y
+def div (x, y):
+    c = x + y
     print(c)
 
 def nhan (x, y):
@@ -27,6 +27,6 @@ def chia (x, y):
 
 
 cong(x,y)
-tru(x, y)
+div(x, y)
 nhan(x, y)
 chia(x, y)
