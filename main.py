@@ -21,7 +21,7 @@ def nhan1 (x, y):
     print(c)
 
 
-def nhan234 (x, y):
+def nhan2345 (x, y):
     c = x / y
     print(c)
 
