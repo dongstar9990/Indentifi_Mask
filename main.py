@@ -16,7 +16,7 @@ def div (x, y):
     c = x + y
     print(c)
 
-def nhan (x, y):
+def nhan1 (x, y):
     c = x * y
     print(c)
 
@@ -28,5 +28,5 @@ def nhan2 (x, y):
 
 cong(x,y)
 div(x, y)
-nhan(x, y)
+nhan1(x, y)
 nhan2(x, y)
