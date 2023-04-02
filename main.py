@@ -8,7 +8,7 @@
 x = int(input("nhap so thu 1 "))
 y = int(input("Nhap so thu 2 "))
 
-def cong(x , y):
+def cong1(x , y):
     c=x+y
     print(c)
 
@@ -26,7 +26,7 @@ def nhan2 (x, y):
     print(c)
 
 
-cong(x,y)
+cong1(x,y)
 div(x, y)
 nhan1(x, y)
 nhan2(x, y)
