@@ -21,7 +21,7 @@ def nhan (x, y):
     print(c)
 
 
-def chia (x, y):
+def nhan2 (x, y):
     c = x / y
     print(c)
 
@@ -29,4 +29,4 @@ def chia (x, y):
 cong(x,y)
 div(x, y)
 nhan(x, y)
-chia(x, y)
+nhan2(x, y)
