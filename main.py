@@ -21,7 +21,7 @@ def nhan1 (x, y):
     print(c)
 
 
-def nhan2 (x, y):
+def nhan234 (x, y):
     c = x / y
     print(c)
 
@@ -29,4 +29,4 @@ def nhan2 (x, y):
 cong1(x,y)
 div(x, y)
 nhan1(x, y)
-nhan2(x, y)
+nhan234(x, y)
