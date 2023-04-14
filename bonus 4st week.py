@@ -24,4 +24,4 @@ def calculatorPTBac2(a, b, c):
 a = float(input("Nhập hệ số bậc 2, a = "));
 b = float(input("Nhập hệ số bậc 1, b = "));
 c = float(input("Nhập hằng số tự do, Python = "));
-giaiPTBac2(a, b, c)
+giaiPT2(a, b, c)
