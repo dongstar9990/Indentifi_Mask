@@ -1,4 +1,7 @@
 from PIL import Image
+import os
+import pandas
+# this function helps programer cut image
 def crop_img(image_path , x_min , y_min , x_max , y_max):
   """
   this function takes an image path
@@ -20,6 +23,7 @@ def extract_faces(image_name, image_info):
     faces.append((crop_img(image_path , x_min , y_min ,x_max , y_max), label , f'{image_name[:-4]}_{(x_min , y_min)}'))
     return faces
 
+#
 cropped_faces=[extract_faces(img, df) for img in images]
 
 flat_cropped_faces=sum(cropped_faces , [])
