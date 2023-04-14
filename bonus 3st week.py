@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def tinhgiaithua(n):
     giai_thua = 1;
     if (n == 0 or n == 1):
@@ -12,6 +13,8 @@ n = int(input("Nhập số nguyên dương n = "));
 print("Giai thừa của", n, "là", tinhgiaithua(n));
 
 
+=======
+>>>>>>> dd04f3c (bonus 3st week)
 def convert_number(n, b):
     if (n < 0 or b < 2 or b > 16):
         return "";
@@ -35,4 +38,22 @@ def convert_number(n, b):
 
 n = int(input("Nhập số nguyên dương n = "));
 print("Hệ cơ số 2 của số nguyên ", n, "là:", convert_number(n, 2))
+<<<<<<< HEAD
 print("Hệ cơ số 16 của số nguyên ", n, "là:", convert_number(n, 16))
+=======
+print("Hệ cơ số 16 của số nguyên ", n, "là:", convert_number(n, 16))
+
+
+def tinhgiaithua(n):
+    giai_thua = 1;
+    if (n == 0 or n == 1):
+        return giai_thua;
+    else:
+        for i in range(2, n + 1):
+            giai_thua = giai_thua * i;
+        return giai_thua;
+
+
+n = int(input("Nhập số nguyên dương n = "));
+print("Giai thừa của", n, "là", tinhgiaithua(n));
+>>>>>>> dd04f3c (bonus 3st week)
